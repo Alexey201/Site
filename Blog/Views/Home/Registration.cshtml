@@ -1,0 +1,80 @@
+﻿@using Blog.Controllers
+@model Blog.Models.RegModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+http://www.w3.org/TR/html4/loose.dtd" >
+
+<html>
+<head>
+<title>Блог</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link href="@Url.Content("~/Content/style2.css")" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="site">
+		<div id="header">																																																																																																			
+			<ul id="menu">
+				<li class="home"><a href="@Url.Action("Posts", "Posts")">Главная</a></li>
+            
+				<li><a href="@Url.Action("Registration", "Home")">Регистрация</a></li>
+             
+				<li><a href="@Url.Action("Index", "Home")">Вход</a></li>
+                 
+			</ul>
+			
+			<a href="Posts" class="logo"><img src="@Url.Content("~/Content/images/logo.png")" alt="Записи JavaScript,HTML,CSS" /></a>
+		   
+		    
+		</div>
+		<div id="content">
+			<div id="wrapper">
+				<div id="main">
+					<div id="posts">
+					    
+					    <div class="post">
+					        <form action="" method="POST" >
+					            <h3>Логин:</h3>
+					            @Html.TextBoxFor(m => m.RegPModel.Login)
+					            <br>
+                                <br>
+                                <h3>Пароль:</h3>
+					            @Html.TextBoxFor(m => m.RegPModel.Pass)
+					            <br>
+                                <br>
+                                <h3>E-mail:</h3>
+					            @Html.TextBoxFor(m => m.RegPModel.Mail)
+
+                                @Html.ValidationMessageFor(m => m.RegPModel.Mail)
+                                <br>
+                                 <br>
+					            <input type="submit" value="Зарегистрироваться" />
+                
+					        </form>
+
+
+					        
+					    </div>
+
+
+                       
+
+                        																																																																																																																			
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div id="footer">
+			<div id="bottom_menu">
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>

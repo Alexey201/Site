@@ -1,0 +1,50 @@
+﻿@model Blog.Models.MessageModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Главная</title>
+    </head>
+    <body>
+        <div>
+            <table style="border: 1px solid black;">
+                <tr>
+                    <td>
+                        Email
+                    </td>
+                    <td>
+                        Message
+                    </td>
+                </tr>
+                
+                @foreach (var item in Model.Items)
+                {
+                    <tr>
+                        <td>
+                            @item.Email
+                        </td>
+                        <td>
+                            @item.Message                        
+                        </td>
+                    </tr>
+                }
+            </table>
+            <form action="" method="POST">
+                @Html.TextBoxFor(m => m.PostModel.Email)
+                <br/>
+                @Html.ValidationMessageFor(m => m.PostModel.Email)
+                @Html.TextAreaFor(m => m.PostModel.Message)
+                <br/>
+                <input type="submit"/>
+            </form>
+        </div>
+        <a href="Login.cshtml">Перейти</a>    
+        @Html.ActionLink("Index>>","Index");
+    </body>
+</html>

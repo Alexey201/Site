@@ -1,0 +1,145 @@
+﻿@using Blog.Controllers
+@model Blog.Models.PostsModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+http://www.w3.org/TR/html4/loose.dtd" >
+
+<html>
+<head>
+<title>Блог</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <link href="@Url.Content("~/Content/style.css")" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="site">
+		<div id="header">																																																																																																			
+			<ul id="menu">
+				<li class="home"><a href="@Url.Action("Posts", "Posts")">Главная</a></li>
+				<li><a href="@Url.Action("Registration", "Home")">Регистрация</a></li>
+				<li><a href="@Url.Action("Index", "Home")">Вход</a></li>
+			</ul>
+			
+			<a href="Posts" class="logo"><img src="@Url.Content("~/Content/images/logo.png")" alt="Записи JavaScript,HTML,CSS"/></a>
+		    
+		</div>
+		<div id="content">
+			<div id="wrapper">
+				<div id="main">
+					<div id="posts">
+						<h2>Мои работы</h2>
+						@foreach (var item in Model.PItems)
+						   {
+						       string str;
+						       string path;
+						       str = "Comm/" + item.id;
+						       if (item.Image != null)
+						       {
+						           path = "~/Content/images/" + item.Image;
+						       }
+						       else
+						       {
+						           path = "~/Content/images/photo1.jpg";
+						       }
+
+
+						       <div class="post">
+						           <h1 class="title">@item.Name</h1>
+						    
+                            
+						           <a href="#"><img src="@Url.Content(path)" alt="" width="580" height="285" /></a>
+						           <p>@item.Text </p>
+						           <a href=@str class="more">Подробнее</a>
+						           @{
+						               if (Model.reg && Model.PerId == 1)
+						               {
+						                   @Html.ActionLink("Удалить пост", "DelPost", new {del = item.id})
+						                   ;
+
+						               }
+						           }  
+
+							
+						       </div>
+						   }
+						
+                     
+                        <!--:)-->
+                        																																																																																																																			
+					    <div id="pager">
+							<a href="#" class="previous">Передыдущая страница</a>
+							<ul>
+								<li><a href="#" id="active">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#">6</a></li>
+								<li><a href="#">7</a></li>
+								<li><a href="#">8</a></li>
+								<li><a href="#">9</a></li>
+							</ul>
+							<a href="#" class="next">Следущая страница</a>
+						</div>
+					</div>
+				</div>
+				<div id="sidebar">
+					
+			         <br>
+                    <br>
+                    <h2>Шутко Алексей</h2>
+					<div class="about">
+						<img src="@Url.Content("~/Content/images/photoname.jpg")" alt="" width="251" height="251" />
+						<p>гр. 110901 </p>
+						
+					</div>
+					
+					 @{
+                            if ((Model.reg) && (Model.PerId == 1))
+                            {
+                             
+                                <h2>Добавить запись</h2>
+                                 <hr>
+                                <ul id="categories">
+                                    <form action="" method="POST">
+                                        <h4>Заголовок:</h4>
+                                        @Html.TextBoxFor(m => m.PostPModel.Name) 
+                                        <br/>
+                                        <br/>
+               
+                                        <h4>Текст:</h4>
+                                        @Html.TextAreaFor(m => m.PostPModel.Text)
+                                        <br/>
+                                        
+
+                                            
+                                        
+
+                                        <input type="submit" value="Отправить"/>
+                                    </form>
+                                    
+
+                                </ul>
+                            
+                            }
+                        }
+					
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="bottom_menu">
+				<ul>
+					<li><a href="@Url.Action("Posts", "Posts")">Главная</a></li>
+					<li>|<a href="@Url.Action("Registration", "Home")">Регистрация</a></li>
+				    <li>|<a href="@Url.Action("Index", "Home")">Выход</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+﻿@using Blog.Controllers
+@model Blog.Models.PostsModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Posts</title>
+    </head>
+    <body>
+        <h3>Посты</h3>
+        <div>
+            
+                
+            @foreach (var item in Model.PItems)
+            {
+                <div>
+                    
+                        
+                    >>@item.Name
+                    <br/>
+                        
+                    <i>@item.Text</i>                       
+                    <br/>
+                         
+                    >>@item.Date                      
+                    
+                   <!-- <form action="Comm" method="POST" > -->
+                        <br/>
+                    @Html.ActionLink("Подробнее->", "Comm", new { id = item.id })
+                    <br/>
+                    @{
+                        if (Model.reg)
+                        {
+                            @Html.ActionLink("Удалить пост", "DelPost", new {del = item.id});
+                            
+                        }
+                    }  
+                      <!-- <input type="submit" value=""/> --> 
+                    <!-- </form> -->     
+                    
+                </div>
+                <br/>
+            }
+            @{
+                if (Model.reg)
+                {
+                    <form action="" method="POST" >
+                        @Html.TextBoxFor(m => m.PostPModel.Name)
+                        <br/>
+               
+                        @Html.TextAreaFor(m => m.PostPModel.Text)
+                        <br/>
+                        <input type="submit" value="Отправить"/>
+                    </form>
+                }
+            }
+           
+        </div>
+        
+        @Html.ActionLink("Выход","Index","Home");
+    </body>
+</html>

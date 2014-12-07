@@ -1,0 +1,40 @@
+﻿@using Blog.Controllers
+@model Blog.Models.RegModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Регистрация</title>
+    </head>
+    <body>
+        
+      
+        <div>
+           
+            <form action="" method="POST">
+                Логин:
+                @Html.TextBoxFor(m => m.RegPModel.Login)
+                <br/>
+                Пароль:
+                @Html.TextBoxFor(m => m.RegPModel.Pass)
+                <br/>
+                E-mail:
+                @Html.TextBoxFor(m => m.RegPModel.Mail)
+                @Html.ValidationMessageFor(m => m.RegPModel.Mail)
+                <br/>
+                <input type="submit" value="Регистрация"/>
+                
+            </form>
+
+            
+        </div>
+
+       
+    </body>
+</html>

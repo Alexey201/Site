@@ -1,0 +1,71 @@
+﻿
+@using Blog.Controllers
+@model Blog.Models.LoginModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Travel Blog</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        @{
+            /*<link rel="stylesheet" type="text/css" href="D:\work\Blog\Blog\style.css" />*/
+        }
+        <link href="@Url.Content("~/Content/style1.css")" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        
+      
+        <div>
+            <table style="border: 1px solid black;">
+                <tr>
+                    <td>
+                        Login
+                    </td>
+                    <td>
+                        Pass
+                    </td>
+                </tr>
+                @foreach (var item in Model.LItems)
+                {
+                    <tr>
+                        <td>
+                            @item.Login
+                        </td>
+                        <td>
+                            @item.Pass                        
+                        </td>
+                    </tr>
+                }
+            </table>
+            <form action="" method="POST">
+                @Html.TextBoxFor(m => m.UserLogin);
+                <br/>
+                
+                @Html.TextBoxFor(m => m.UserPass)
+                <br/>
+                <input type="submit" value="Вход"/>
+                
+            </form>
+
+            <form action="Posts/Posts">
+               
+                <input type="submit" value="Я гость"/>  
+               
+            </form>
+            
+            <form action="Home/Registration">
+               
+                <input type="submit" value="Регистрация"/>  
+               
+            </form>
+        </div>
+
+       
+    </body>
+</html>

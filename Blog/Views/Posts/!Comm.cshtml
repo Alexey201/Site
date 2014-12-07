@@ -1,0 +1,76 @@
+﻿@using Blog.Controllers
+@using Blog.Models
+@model Blog.Models.PostsModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Comm</title>
+    </head>
+    <body>
+        <h3>Подробнее</h3>
+        <div>
+         
+            @foreach (var item in Model.PItems)
+            {
+                <div>
+                    
+                        
+                    >>@item.Name
+                    <br/>
+                        
+                    <i>@item.Text</i>                       
+                    <br/>
+                         
+                    >>@item.Date                      
+                    
+              
+                    
+                </div>
+                <br/>
+            }
+            <h4>Комментарии:</h4>
+            @foreach (var item in Model.Items)
+            {
+                <div>
+                    
+                        
+                    >>@item.Email
+                    <br/>
+                        
+                    <i>@item.Message</i>                       
+                    <br/>
+                    @{
+                        if (Model.reg)
+                        {
+                            @Html.ActionLink("Удалить", "Del", new {delid = item.Id,})
+                            
+                        }
+
+                    }                
+                    
+              
+                    
+                </div>
+                <br/>
+            }
+
+        </div>
+        <form action="Comm" method="POST">
+           
+            @Html.TextBoxFor(m => m.PostModel.Email)
+            @Html.ValidationMessageFor(m => m.PostModel.Email)
+            <br/>
+            @Html.TextAreaFor(m => m.PostModel.Message)
+            <br/>
+            <input type="submit" value="Комментировать" />
+        </form>
+        @Html.ActionLink("<-Назад", "Posts");
+            </body>
+</html>

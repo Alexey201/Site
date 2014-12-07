@@ -1,0 +1,110 @@
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\Blog.dll
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\Blog.pdb
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\Microsoft.Web.Infrastructure.dll
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\Newtonsoft.Json.dll
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Net.Http.Formatting.dll
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.Helpers.dll
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.Http.dll
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.Http.WebHost.dll
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.Mvc.dll
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.Razor.dll
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.WebPages.Deployment.dll
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.WebPages.dll
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.WebPages.Razor.dll
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\Newtonsoft.Json.xml
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Net.Http.Formatting.xml
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.Helpers.xml
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.Http.xml
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.Http.WebHost.xml
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.Mvc.xml
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.Razor.xml
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.WebPages.xml
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.WebPages.Deployment.xml
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\bin\System.Web.WebPages.Razor.xml
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\obj\Debug\Blog.csprojResolveAssemblyReference.cache
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\obj\Debug\Blog.dll
+D:\Учеба\7 семестр\ПФ И-Т\vs\Blog\Blog\obj\Debug\Blog.pdb
+D:\work\Blog\Blog\bin\Blog.dll
+D:\work\Blog\Blog\bin\Blog.pdb
+D:\work\Blog\Blog\bin\Microsoft.Web.Infrastructure.dll
+D:\work\Blog\Blog\bin\Newtonsoft.Json.dll
+D:\work\Blog\Blog\bin\System.Net.Http.Formatting.dll
+D:\work\Blog\Blog\bin\System.Web.Helpers.dll
+D:\work\Blog\Blog\bin\System.Web.Http.dll
+D:\work\Blog\Blog\bin\System.Web.Http.WebHost.dll
+D:\work\Blog\Blog\bin\System.Web.Mvc.dll
+D:\work\Blog\Blog\bin\System.Web.Razor.dll
+D:\work\Blog\Blog\bin\System.Web.WebPages.Deployment.dll
+D:\work\Blog\Blog\bin\System.Web.WebPages.dll
+D:\work\Blog\Blog\bin\System.Web.WebPages.Razor.dll
+D:\work\Blog\Blog\bin\Newtonsoft.Json.xml
+D:\work\Blog\Blog\bin\System.Net.Http.Formatting.xml
+D:\work\Blog\Blog\bin\System.Web.Helpers.xml
+D:\work\Blog\Blog\bin\System.Web.Http.xml
+D:\work\Blog\Blog\bin\System.Web.Http.WebHost.xml
+D:\work\Blog\Blog\bin\System.Web.Mvc.xml
+D:\work\Blog\Blog\bin\System.Web.Razor.xml
+D:\work\Blog\Blog\bin\System.Web.WebPages.xml
+D:\work\Blog\Blog\bin\System.Web.WebPages.Deployment.xml
+D:\work\Blog\Blog\bin\System.Web.WebPages.Razor.xml
+D:\work\Blog\Blog\obj\Debug\Blog.csprojResolveAssemblyReference.cache
+D:\work\Blog\Blog\obj\Debug\Blog.dll
+D:\work\Blog\Blog\obj\Debug\Blog.pdb
+D:\work\Blog\Blog\obj\Debug\Blog.Properties.Resources.resources
+D:\work\Blog\Blog\obj\Debug\Blog.csproj.GenerateResource.Cache
+D:\work\BlogGH\Blog\bin\Blog.dll
+D:\work\BlogGH\Blog\bin\Blog.pdb
+D:\work\BlogGH\Blog\bin\Microsoft.Web.Infrastructure.dll
+D:\work\BlogGH\Blog\bin\Newtonsoft.Json.dll
+D:\work\BlogGH\Blog\bin\System.Net.Http.Formatting.dll
+D:\work\BlogGH\Blog\bin\System.Web.Helpers.dll
+D:\work\BlogGH\Blog\bin\System.Web.Http.dll
+D:\work\BlogGH\Blog\bin\System.Web.Http.WebHost.dll
+D:\work\BlogGH\Blog\bin\System.Web.Mvc.dll
+D:\work\BlogGH\Blog\bin\System.Web.Razor.dll
+D:\work\BlogGH\Blog\bin\System.Web.WebPages.Deployment.dll
+D:\work\BlogGH\Blog\bin\System.Web.WebPages.dll
+D:\work\BlogGH\Blog\bin\System.Web.WebPages.Razor.dll
+D:\work\BlogGH\Blog\bin\Newtonsoft.Json.xml
+D:\work\BlogGH\Blog\bin\System.Net.Http.Formatting.xml
+D:\work\BlogGH\Blog\bin\System.Web.Helpers.xml
+D:\work\BlogGH\Blog\bin\System.Web.Http.xml
+D:\work\BlogGH\Blog\bin\System.Web.Http.WebHost.xml
+D:\work\BlogGH\Blog\bin\System.Web.Mvc.xml
+D:\work\BlogGH\Blog\bin\System.Web.Razor.xml
+D:\work\BlogGH\Blog\bin\System.Web.WebPages.xml
+D:\work\BlogGH\Blog\bin\System.Web.WebPages.Deployment.xml
+D:\work\BlogGH\Blog\bin\System.Web.WebPages.Razor.xml
+D:\work\BlogGH\Blog\obj\Debug\Blog.csprojResolveAssemblyReference.cache
+D:\work\BlogGH\Blog\obj\Debug\Blog.Properties.Resources.resources
+D:\work\BlogGH\Blog\obj\Debug\Blog.csproj.GenerateResource.Cache
+D:\work\BlogGH\Blog\obj\Debug\Blog.dll
+D:\work\BlogGH\Blog\obj\Debug\Blog.pdb
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\Blog.dll
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\Blog.pdb
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\Newtonsoft.Json.dll
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Net.Http.Formatting.dll
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.Helpers.dll
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.Http.dll
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.Http.WebHost.dll
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.Mvc.dll
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.Razor.dll
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.WebPages.dll
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.WebPages.Razor.dll
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\Newtonsoft.Json.xml
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Net.Http.Formatting.xml
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.Helpers.xml
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.Http.xml
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.Http.WebHost.xml
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.Mvc.xml
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.Razor.xml
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.WebPages.xml
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\bin\System.Web.WebPages.Razor.xml
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\obj\Debug\Blog.csprojResolveAssemblyReference.cache
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\obj\Debug\Blog.Properties.Resources.resources
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\obj\Debug\Blog.csproj.GenerateResource.Cache
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\obj\Debug\Blog.dll
+C:\Users\Лёха\Desktop\BlogGH\BlogGH\Blog\obj\Debug\Blog.pdb
